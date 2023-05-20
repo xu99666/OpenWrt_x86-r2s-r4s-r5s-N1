@@ -12,7 +12,7 @@ sed -i "s/make-ext4fs missing-macros/make-ext4fs meson missing-macros/" tools/Ma
 curl -sfL https://raw.githubusercontent.com/openwrt/openwrt/openwrt-22.03/include/meson.mk -o include/meson.mk
 svn co https://github.com/openwrt/openwrt/branches/openwrt-22.03/tools/meson tools/meson
 
-rm -rf package/feeds/kiddin9/rtl* feeds/kiddin9/shortcut-fe package/kernel/mt76
+rm -rf package/feeds/kiddin9/rtl* feeds/kiddin9/{shortcut-fe,fullconenat-nft} package/kernel/mt76
 
 rm -rf devices/common/patches/{fix.patch,iptables.patch,kernel-defaults.patch,targets.patch}
 
