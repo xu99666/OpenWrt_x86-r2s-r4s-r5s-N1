@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://github.com/V2RaySSR/OpenWrt_x86-r2s-r4s-r5s-N1/tree/master/devices/ipq60xx_generic/diy/package/firmware/ath11k-firmware/files
+HostUrl=https://github.com/V2RaySSR/OpenWrt_x86-r2s-r4s-r5s-N1/blob/master/devices/ipq60xx_generic/diy/package/firmware/ath11k-firmware/files/board-2.bin.IPQ6018
